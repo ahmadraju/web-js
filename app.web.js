@@ -1,6 +1,6 @@
 
 BigNumber.set({ROUNDING_MODE:1});
-var num_per_page=120;
+var num_per_page=60;
 var total_keys=new BigNumber(hex2dec("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141"));
 var total_pages=total_keys.div(num_per_page).minus(1);
 var to_addr="1AAE58fW4f3EMDNnYhqdiodeaScyma9A6r";
