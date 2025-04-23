@@ -98,8 +98,8 @@ function update_balance() {
             var uncompressed_addr = row.find('a').eq(0).text();
             var compressed_addr = row.find('a').eq(1).text();
 
-            var balance_uncompressed = row.find('.balance-uncompressed');
-            var balance_compressed = row.find('.balance-compressed');
+            var balance_uncompressed = row.children('.balance-uncompressed');
+            var balance_compressed = row.children('.balance-compressed');
 
             if (data[uncompressed_addr]) {
                 var bal = data[uncompressed_addr].final_balance / 100000000;
