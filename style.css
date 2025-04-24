@@ -18,7 +18,7 @@ body {
 
 .header {
     width: 100%;
-    background-color: #00b7ff;
+    background-color: grey;
     position: relative;
     display: inline-block;
     height: 90px;
@@ -106,7 +106,7 @@ body {
 .button {
     position: relative;
     padding: 8px 16px;
-    background: #00b7ff;
+    background: grey;
     border: none;
     outline: none;
     cursor: pointer;
@@ -149,7 +149,7 @@ body {
 
 .button--loading:hover {
     cursor: initial;
-    background-color: #00b7ff;
+    background-color: grey;
 }
 
 
@@ -236,7 +236,7 @@ body {
 
 /* =================================================Footer===============================================================  */
 footer {
-    background-color: #00b7ff;
+    background-color: grey;
     color: white;
     display: flex;
     flex-direction: column;
