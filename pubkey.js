@@ -9,6 +9,10 @@ function compressPubKey(pubkey) {
 }
 
 function hexToBuffer(hex) {
+    // Validate hex string strictly
+    if (!/^[0-9a-fA-F]+$/.test(hex) || hex.length % 2 !== 0) {
+        return null;
+    }
     try {
         return Buffer.from(hex, 'hex');
     } catch {
@@ -62,4 +66,3 @@ function hhh() {
         errorEl.innerText = "Error: " + e.message;
     }
 }
-
